@@ -5,7 +5,7 @@ import { ContadorComponent } from './contador.component';
 describe('ContadorComponent', () => {
   let component: ContadorComponent;
   let fixture: ComponentFixture<ContadorComponent>;
-
+  
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [ContadorComponent]
